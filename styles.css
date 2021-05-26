@@ -1,0 +1,46 @@
+#bento-box {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows:  -25px 150px repeat(6, 25px);
+    grid-gap: 1px;
+}
+#bento-box div img {
+    width: 100%;
+    height: 100%;
+}
+#fish-flag {
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#map {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+#vase-tall {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+#vase-short{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#bamboo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+#quadropus{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 11;
